@@ -1,0 +1,5 @@
+environment: production
+array      : ['1', '2', '3']
+iron:
+    host: prod-iron-host
+    project: 123123123

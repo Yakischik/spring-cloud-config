@@ -1,0 +1,12 @@
+{
+	"version" : "${version}"
+	[
+		'/**':                             ['IS_AUTHENTICATED_REMEMBERED'],
+		'/**/*.png':                       ['IS_AUTHENTICATED_ANONYMOUSLY'],
+		'/adminView/**':                   ['ROLE_ADMIN', 'ROLE_HOTEL_ALICE_ADMIN', 'ROLE_ALICE_ADMIN', 'ROLE_HOTEL_ADMIN'],
+		'/aliceAdminView/**':              ['ROLE_HOTEL_ALICE_ADMIN'],
+		'/api/**':                         ['ROLE_GUEST', 'ROLE_EMPL', 'ROLE_ADMIN', 'ROLE_HOTEL_ALICE_ADMIN', 'ROLE_HOTEL_ADMIN'],
+		'/assets/**':                      ['IS_AUTHENTICATED_ANONYMOUSLY'],
+		'/atmosphere/**':                  ['IS_AUTHENTICATED_ANONYMOUSLY']
+	]
+}

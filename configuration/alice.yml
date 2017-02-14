@@ -1,0 +1,8 @@
+name        : alice
+environment : development
+version     : 1.0
+array       : ['a', 'b', 'c']      
+iron : 
+    host    : localhost
+    project : 123123123
+    token   : qwerty
